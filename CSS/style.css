@@ -1,16 +1,56 @@
-h3{
-    color: aqua;
-    background-color: brown;
-    font-size: large;
-    font-family: 'Times New Roman', Times, serif;
+.uppercase {
+
+    text-transform: uppercase;
+    color: blueviolet;
+    text-decoration: underline overline line-through
+
+
+
 }
-p{
-   color: rgb(14, 2, 34);
-   font-size: medium;
-   font-family: 'Times New Roman', Times, serif; 
+.lowercase {
+    text-transform: lowercase;
+    color: brown;
+    text-decoration: overline 
+
 }
-h4{
+.capitalize {
+    text-transform: capitalize;
+    color: green;
+    text-decoration: underline;
+}
+
+.center {
+    text-align: center;
     color: blue;
-    background-color: blanchedalmond;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: aqua;
+    text-decoration: underline overline line-through
+
+}
+.right {
+    text-align: right;
+    color: blueviolet;
+    background-color: aquamarine;
+    text-decoration: dashed;
+}
+.indent {
+    text-indent: 50px;
+}
+.height{
+    line-height: 30px;
+}
+.word_spacing{
+    word-spacing: 50px;
+
+}
+.letter_spacing{
+    letter-spacing: 50px;
+    
+}
+
+.shadow {
+    text-shadow: 14px 5px 8px red;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 50px;
+
 }
