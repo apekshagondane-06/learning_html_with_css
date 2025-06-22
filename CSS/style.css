@@ -1,56 +1,37 @@
-.uppercase {
-
-    text-transform: uppercase;
-    color: blueviolet;
-    text-decoration: underline overline line-through
-
-
-
-}
-.lowercase {
-    text-transform: lowercase;
-    color: brown;
-    text-decoration: overline 
-
-}
-.capitalize {
-    text-transform: capitalize;
-    color: green;
-    text-decoration: underline;
-}
-
-.center {
-    text-align: center;
-    color: blue;
-    background-color: aqua;
-    text-decoration: underline overline line-through
-
-}
-.right {
-    text-align: right;
-    color: blueviolet;
-    background-color: aquamarine;
-    text-decoration: dashed;
-}
-.indent {
-    text-indent: 50px;
-}
-.height{
-    line-height: 30px;
-}
-.word_spacing{
-    word-spacing: 50px;
-
-}
-.letter_spacing{
-    letter-spacing: 50px;
+.font_family1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: red
     
 }
+.font_family2{
+    font-family: fantasy;
+    color: brown;
+}
+.font_family3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: palevioletred
+}
+.font_weight{
+    font-weight: bolder;
+    color: blue;
+}
 
-.shadow {
-    text-shadow: 14px 5px 8px red;
-    text-align: center;
-    text-transform: capitalize;
-    font-size: 50px;
-
+.dropshadow1{
+    filter: drop-shadow(8px 8px 8px red);
+    width: 200px;
+    height: 200px;
+}
+.dropshadow2{
+    filter: drop-shadow(8px 8px 8px palevioletred);
+    width: 300px;
+    height: 300px;}
+.boxshadow1{
+    box-shadow:8px 8px 10px blueviolet;
+    width: 300px;
+    height: 300px;
+}
+.boxshadow2{
+    box-shadow:8px 8px 10px brown;
+    width: 200px;
+    height: 300px;
 }
