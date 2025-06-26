@@ -1,4 +1,4 @@
- .font_family1{
+ /* .font_family1{
     font-family: Arial, Helvetica, sans-serif;
     color: red
     
@@ -289,6 +289,278 @@ h1{
     flex-direction: row-reverse;
     flex-wrap:wrap;
     justify-content: space-evenly;
+} */
+
+
+
+
+
+.hospital-container {
+  position: relative;
+    width: 800px;
+    height: 600px;
+    background-color: rgb(51, 2, 2);
+    top: 100px;
+    left: 20px;
+    text-align: center;
+    border: 3px solid;
+}
+#entrance{
+    position: absolute;
+    height: 100px;
+    width: 800px;
+    background-color: rgb(174, 233, 226);
+    display:flex;
+    justify-content: center;
+     align-items: center;
+     text-align: center;
+     font-weight: bold;
+     
+    
+    }
+    #waiting{
+    position: absolute;
+    height: 60px;
+    width: 200px;
+    background-color: rgb(2, 97, 86);
+    left: 5px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+     align-content: center;
+     font-weight: bold;
+     border: 2px solid rgb(148, 5, 5);
+     top: 110px;
+    }
+
+    #consult1{
+    position: absolute;
+    height: 60px;
+    width: 200px;
+    background-color: rgb(2, 97, 86);
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+     align-content: center;
+     font-weight: bold;
+     border: 2px solid rgb(196, 25, 25);
+     bottom: 100px;
+     right: 5px; 
+     top: 110px;
+
+    }
+    
+    #consult2{
+    position: absolute;
+    height: 60px;
+    width: 200px;
+    background-color: rgb(2, 73, 66);
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-content: center;
+    font-weight: bold;
+    border: 2px solid rgb(196, 25, 25);
+    bottom: 350px; 
+    right:6px;
+     
+    }
+    #generalward1{
+    position: absolute;
+    height: 90px;
+    width: 220px;
+    background-color: rgb(2, 73, 66);
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-content: center;
+    font-weight: bold;
+    border: 2px solid rgb(196, 25, 25);
+    bottom: 250px; 
+    left:6px;
 }
 
+#generalward2{
+    position: absolute;
+    height: 90px;
+    width: 220px;
+    background-color: rgb(2, 73, 66);
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-content: center;
+    font-weight: bold;
+    border: 2px solid rgb(196, 25, 25);
+    bottom: 150px; 
+    left:6px;
+}
+
+#ICU{
+    position: absolute;
+    height: 90px;
+    width: 220px;
+    background-color: rgb(2, 73, 66);
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-content: center;
+    font-weight: bold;
+    border: 2px solid rgb(196, 25, 25);
+    bottom: 0px; 
+    left:6px;
+}
+
+#operation_theater{
+    position: absolute;
+    height: 90px;
+    width: 220px;
+    background-color: rgb(2, 73, 66);
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-content: center;
+    font-weight: bold;
+    border: 2px solid rgb(196, 25, 25);
+    bottom: 0px; 
+    right:6px;
+}
+
+
+
+
+.hovereffect:hover {
+    color: blueviolet;
+    background-color: aquamarine;
+    font-size: 50px;
+    text-shadow: 5px 6px 8px blue;
+    font-family: 'Times New Roman', Times, serif;
+    height: 200px;
+}
+.hovereffect {
+    color: rgb(9, 1, 14);
+    font-size: 50px
+}
+
+button{
+    background-color: rgb(1, 59, 77);
+    font-size: 40px;
+    padding: 10px;
+    color: azure;
+    border-radius: 20px;
+    cursor: pointer;
+}
+button:active {
+    background-color: rgb(80, 4, 156);
+    font-size: 40px;
+    padding: 20px;
+    color: azure;
+    border-radius: 20px;
+}
+
+a:visited {
+    color:rgb(214, 88, 187);
+    
+}
+ input:focus {
+    background-color: rgb(0, 5, 3); 
+    color: white;
+}
+
+
+ul {
+    width:300px;
+    padding: 10px;
+    list-style-type: none;
+
+}
+
+li {
+    padding: 10px;
+    border: 3px solid brown;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+li:nth-child(odd) {
+    background-color: rgb(39, 243, 216);
+}
+li:nth-child(even) {
+    background-color: rgb(236, 184, 105);
+}
+
+
+input[type="text"] {
+    border: 7px solid brown;
+    padding: 10px;
+
+}
+input [placeholder]{
+    background-color: rgb(3, 0, 0);
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+    gap:10px;
+}
+.Box {
+    background-color: rgb(238, 82, 10);
+    border-radius: 20px;
+    height: 200px;
+    width: 200px;
+    color: white;
+    font-weight: 90px;
+    font-size: 25px;
+    transition:transform 2s ease 500ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Box1:hover {
+
+    transform: translate(150px,150px);
+    background-color: rgb(5, 47, 110);
+    border: 4px solid rgb(2, 2, 56);
+
+}
+.Box2:hover {
+    transform: translateX(150px);
+    border: 4px solid rgb(2, 2, 56);
+    background-color: rgb(5, 47, 110);
+}
+.Box3:hover {
+    transform: translateY(150px);
+    border: 4px solid rgb(2, 2, 56);
+    background-color: rgb(5, 47, 110);
+
+}
+.Box4:hover {
+    
+ transform: rotate(120deg);
+  border: 4px solid rgb(2, 2, 56);
+ background-color: rgb(5, 47, 110);
+
+}
+.Box5:hover {
+    
+ transform: skewX(120deg);
+  border: 4px solid rgb(2, 2, 56);
+ background-color: rgb(5, 47, 110);
+
+}
+.Box6:hover {  
+ transform: scale(3);
+  border: 4px solid rgb(2, 2, 56);
+ background-color: rgb(5, 47, 110);
+
+}
+.Box7:hover {
+transform: rotate(120deg) scale(3);
+border: 4px solid rgb(2, 2, 56);
+background-color: rgb(5, 47, 110);
+gap: 10px;
+}
 
