@@ -1,4 +1,4 @@
-  /* .font_family1{
+.font_family1{
     font-family: Arial, Helvetica, sans-serif;
     color: red
     
@@ -295,7 +295,7 @@ h1{
 
 
  
-  /* .hospital-container {
+  .hospital-container {
   position: relative;
     width: 800px;
     height: 600px;
@@ -318,6 +318,7 @@ h1{
      
     
     }
+
     #waiting{
     position: absolute;
     height: 60px;
@@ -424,9 +425,6 @@ h1{
     bottom: 0px; 
     right:6px;
 } 
-
-
-
 
 .hovereffect:hover {
     color: blueviolet;
@@ -565,11 +563,11 @@ gap: 10px;
 }  
 
 
-   div{
+   /* div{
     color: white;
     text-align: center;
     font-size: 40px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace; */
 }   
 
 
@@ -593,7 +591,7 @@ gap: 10px;
     border-radius: 10%;
 }  
 
-  div{
+  /* div{
     width: 200px;
     height: 200px;
     background-color: rgb(6, 168, 168);
@@ -606,7 +604,7 @@ gap: 10px;
     border-radius: 10px;
     animation-delay: 3s;
     animation-direction: alternate-reverse;
-}  
+}   */
 
 @keyframes myfirstanimation {
       0%   { background-color: rgb(0, 107, 107); left: 0px; top: 0px; }
@@ -615,6 +613,7 @@ gap: 10px;
       75%  { background-color: rgb(241, 124, 14); left: 0px; top: 300px; }
       100% { background-color: rgb(117, 2, 12);   left: 0px; top: 0px; }
     } 
+    
 
 
     #txt {
@@ -634,11 +633,11 @@ gap: 10px;
       height: 80px;
       box-shadow: 0px 30px 15px rgb(19, 0, 0);
       color: rgb(87, 87, 2);
-      background: rgb(24, 0, 10);
+      background: rgb(68, 1, 1);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       -webkit-transform-origin: bottom;
-      transform: rotateX(-85deg);
+       transform: rotateX(-50deg); 
       animation: getUp;
       animation-duration: 10s;
       animation-iteration-count: infinite;
@@ -670,5 +669,5 @@ gap: 10px;
     @keyframes getUp {
       0%, 60%, 100% { transform: rotateX(0); }
       10%, 50% { transform: rotateX(-86deg); }
-    }
-
+    }  */
+ 
